@@ -1,0 +1,14 @@
+export const fdata = () =>  {
+    uni.request({
+        method: 'POST',
+        url: '/api/home/init',
+        success: (res) => {
+            let dataList = [
+                // ["地址"，"文字+混淆字符"，"正确答案"，"意思"，""],
+                ["https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1591694043390&di=bcfd6999812b951ab7417b9ca36c5d04&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_mini%2Cc_zoom%2Cw_640%2Fimages%2F20170624%2Fab346436edc040a89b024351f43b8eac.jpg", "菜中千和吴海山月人万稳和水阿把", "千山万水", "千山万水大概就这个意思", "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1591694043390&di=bcfd6999812b951ab7417b9ca36c5d04&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_mini%2Cc_zoom%2Cw_640%2Fimages%2F20170624%2Fab346436edc040a89b024351f43b8eac.jpg"], ["https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1826511514,2473222949&fm=15&gp=0.jpg", "阔流天成吴程底万落都阿把花分水", "落花流水", "落花流水大概就这个意思", "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1826511514,2473222949&fm=15&gp=0.jpg"], ["https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1591694043390&di=bcfd6999812b951ab7417b9ca36c5d04&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_mini%2Cc_zoom%2Cw_640%2Fimages%2F20170624%2Fab346436edc040a89b024351f43b8eac.jpg", "菜中千和吴海山月人万稳和水阿把", "春暖花开", "千山万水大概就这个意思", "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1591694043390&di=bcfd6999812b951ab7417b9ca36c5d04&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_mini%2Cc_zoom%2Cw_640%2Fimages%2F20170624%2Fab346436edc040a89b024351f43b8eac.jpg"], ["https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1591694043390&di=bcfd6999812b951ab7417b9ca36c5d04&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_mini%2Cc_zoom%2Cw_640%2Fimages%2F20170624%2Fab346436edc040a89b024351f43b8eac.jpg", "菜中千和吴海山月人万稳和水阿把", "十字路口", "千山万水大概就这个意思", "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1591694043390&di=bcfd6999812b951ab7417b9ca36c5d04&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_mini%2Cc_zoom%2Cw_640%2Fimages%2F20170624%2Fab346436edc040a89b024351f43b8eac.jpg"], ["https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1591694043390&di=bcfd6999812b951ab7417b9ca36c5d04&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_mini%2Cc_zoom%2Cw_640%2Fimages%2F20170624%2Fab346436edc040a89b024351f43b8eac.jpg", "菜中千和吴海山月人万稳和水阿把", "\r\n千军万马", "千山万水大概就这个意思", "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1591694043390&di=bcfd6999812b951ab7417b9ca36c5d04&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_mini%2Cc_zoom%2Cw_640%2Fimages%2F20170624%2Fab346436edc040a89b024351f43b8eac.jpg"]
+            ];
+            dataList = res.data;
+            return dataList
+        }
+    });
+}
